@@ -1,0 +1,79 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar-1": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-1-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "SALE ENDS TONIGHT | 30 DAYS MONEY BACK GUARANTEE | OVER 10,000+ ORDERS SHIPPED",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-1-0"
+      ],
+      "settings": {
+        "color_scheme": "scheme-5",
+        "auto_rotate": false,
+        "show_line_separator": false,
+        "show_social": false
+      }
+    },
+    "announcement-bar-2": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-2-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "⭐ 10,000+ Happy Customers | 🔄 7-Day Easy Returns | ✅ 100% Genuine Products",
+            "link": ""
+          }
+        },
+        "announcement-bar-2-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "🚚 Free Shipping on Orders Above ₹499 | Use Code WELCOME10 for 10% Off Your First Order",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-2-0",
+        "announcement-bar-2-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "auto_rotate": true,
+        "change_slides_speed": 4,
+        "show_line_separator": true,
+        "show_social": true
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "logo_position": "middle-left",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    }
+  },
+  "order": [
+    "announcement-bar-1",
+    "announcement-bar-2",
+    "header"
+  ]
+}
